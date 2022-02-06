@@ -91,11 +91,14 @@ console.log(sum);
 console.log('9. Filling boxes with a "while" loop');
 
 let i = 572;
-let max = 0;
-let boxes = 7;
+let box = 0;
 
-while (i > max ) {
-  i += boxes;
-  console.log(boxes);
-  i--;
+while (i >= 6 ) {
+  i -= 7;
+//  console.log(i); would log every iteration
+  box++;
 }
+
+//console.log( ,'boxes were filled');
+console.log('The remainder is: ', i);
+console.log('We have ', box, ' boxes filled');
